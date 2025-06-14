@@ -25,6 +25,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.4.0"
+  cherrilog:
+    dependency: "direct main"
+    description:
+      name: cherrilog
+      sha256: dc400bbc77ad65f525a4dfb955c5214c311d18e9c18dbb0b06d28ce639760079
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.1"
   clock:
     dependency: transitive
     description:
@@ -49,6 +57,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.8"
+  dart_art:
+    dependency: transitive
+    description:
+      name: dart_art
+      sha256: "3d11cd58520a5eea0516f61ad289a595eaf7eb4e4fbe47b7470034b3a133561c"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.2"
   fake_async:
     dependency: transitive
     description:
@@ -83,6 +99,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "4.7.2"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.20.2"
   leak_tracker:
     dependency: transitive
     description:

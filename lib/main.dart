@@ -1,8 +1,14 @@
+import 'package:cherrilog/cherrilog.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xdownloadmanagement/common/index.dart';
 
 void main() {
+  CherriLog.init(
+  options: CherriOptions()
+    ..logLevelRange = CherriLogLevelRanges.all
+    ..useBuffer = false,
+).logTo(CherriConsole());
   runApp(const MyApp());
 }
 
