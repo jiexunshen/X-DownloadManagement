@@ -10,5 +10,9 @@ class RoutePages {
         name: RouteNames.login,
         page: () => const LoginPage(),
       ),
+      GetPage(
+        name: RouteNames.main,
+        page: () => const MainPage(),
+      ),
   ];
 }
